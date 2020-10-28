@@ -1,0 +1,42 @@
+body{
+    background-color: #000;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    filter: invert(1);
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 370px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+  font-size: 22px;
+  color: #888;
+  font-size: medium;
+}
+span{
+  color: #888;
+  padding: 0%;
+  line-height: 0.5;
+}
+@media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+    h1{
+      font-size: 16px;
+    }
+  }
